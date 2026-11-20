@@ -1,0 +1,102 @@
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Element selector: Main heading */
+header {
+    background-color: #234e70;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+/* Main content */
+main {
+    width: 80%;
+    max-width: 700px;
+    margin: 30px auto;
+}
+
+/* Class selector: Add Expense section */
+.expense-form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-form h2 {
+    color: #234e70;
+}
+
+/* Input fields */
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+button {
+    background-color: #234e70;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ID selector */
+#add-expense {
+    border-top: 4px solid #234e70;
+}
+
+/* Your Expenses section */
+.expenses-list {
+    background-color: #e8f1f8;
+    padding: 25px;
+    border-radius: 10px;
+    border-top: 4px solid #4a90a4;
+}
+
+.expenses-list h2 {
+    color: #234e70;
+}
+
+/* Placeholder message */
+.empty-message {
+    color: #777;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    color: #777;
+}
